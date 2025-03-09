@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.haweeinc.lpmi_premium"
-    compileSdk = 34 // Recommended latest stable SDK
+    compileSdk = 35 // Recommended latest stable SDK
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -26,7 +26,7 @@ android {
     defaultConfig {
         applicationId = "com.haweeinc.lpmi_premium"
         minSdk = 21
-        targetSdk = 34  // Match compileSdk
+        targetSdk = 35  // Match compileSdk
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         multiDexEnabled = true
