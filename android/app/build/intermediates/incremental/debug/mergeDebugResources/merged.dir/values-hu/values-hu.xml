@@ -27,6 +27,8 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"Jelszó"</string>
+    <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"Azonosítókulcs"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Fogadás"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Videó"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Elutasítás"</string>

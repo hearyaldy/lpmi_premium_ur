@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-60:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-64:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/heary/Documents/lpmi_premium_ur/android/app/src/main/res/values-night/styles.xml",

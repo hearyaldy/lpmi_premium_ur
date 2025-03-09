@@ -25,7 +25,7 @@ android {
 
     defaultConfig {
         applicationId = "com.haweeinc.lpmi_premium"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 35  // Match compileSdk
         versionCode = flutter.versionCode
         versionName = flutter.versionName
