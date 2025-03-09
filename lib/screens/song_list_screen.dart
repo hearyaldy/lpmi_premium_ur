@@ -26,14 +26,14 @@ class SongListScreen extends StatefulWidget {
   final Function(bool) onThemeChange;
 
   const SongListScreen({
-    Key? key,
+    super.key,
     required this.fontFamily,
     required this.fontSize,
     required this.isDarkTheme,
     required this.onFontChange,
     required this.onFontSizeChange,
     required this.onThemeChange,
-  }) : super(key: key);
+  });
 
   @override
   SongListScreenState createState() => SongListScreenState();
@@ -657,7 +657,7 @@ class SongListScreenState extends State<SongListScreen>
                   canPlay: songProvider.currentCollection ==
                       AppStrings.lpmiCollection,
                 );
-              }).toList(),
+              }),
             ],
           );
         },
@@ -965,7 +965,7 @@ class SongListScreenState extends State<SongListScreen>
                     ),
                   ),
                 );
-              }).toList(),
+              }),
               // Add some spacing between sections
               const SizedBox(height: 8),
             ],

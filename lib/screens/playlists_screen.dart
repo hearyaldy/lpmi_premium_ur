@@ -9,9 +9,9 @@ class PlaylistsScreen extends StatefulWidget {
   final bool isDarkTheme;
 
   const PlaylistsScreen({
-    Key? key,
+    super.key,
     required this.isDarkTheme,
-  }) : super(key: key);
+  });
 
   @override
   _PlaylistsScreenState createState() => _PlaylistsScreenState();

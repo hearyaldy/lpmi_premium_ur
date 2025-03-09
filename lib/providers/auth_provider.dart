@@ -1,8 +1,6 @@
 // lib/providers/auth_provider.dart
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import '../config/firebase_config.dart';
 import '../models/user_model.dart';
 import '../services/auth_service.dart';
 

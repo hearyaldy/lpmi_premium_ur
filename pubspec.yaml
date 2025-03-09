@@ -48,8 +48,8 @@ dependencies:
   flutter_native_splash: ^2.2.19  # Custom splash screen
   flutter_animate: ^4.1.1  # Animation utilities
   image_picker: ^1.0.7  # Use the latest version
-  flutter_local_notifications: ^14.1.1  # For local notifications
-  timezone: ^0.9.2
+  #t imezone: ^0.9.2
+  # flutter_local_notifications: ^14.1.5  # Use the latest version
 
 dev_dependencies:
   flutter_test:
@@ -78,18 +78,3 @@ flutter:
     - assets/song_list.json
     - assets/music_note.gif
 
-  fonts:
-    - family: Montserrat
-      fonts:
-        - asset: assets/fonts/Montserrat-Regular.ttf
-        - asset: assets/fonts/Montserrat-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/Montserrat-Italic.ttf
-          style: italic
-    - family: Roboto
-      fonts:
-        - asset: fonts/Roboto-Regular.ttf
-        - asset: fonts/Roboto-Bold.ttf
-          weight: 700
-        - asset: fonts/Roboto-Italic.ttf
-          style: italic

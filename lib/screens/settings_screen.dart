@@ -13,13 +13,13 @@ class SettingsScreen extends StatelessWidget {
   final bool isDarkTheme;
 
   const SettingsScreen({
-    Key? key,
+    super.key,
     required this.onFontChange,
     required this.onFontSizeChange,
     required this.onThemeChange,
     required this.fontSize,
     required this.isDarkTheme,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -61,7 +61,7 @@ class SettingsScreen extends StatelessWidget {
             style, 
             settingsProvider.listStyle == style,
             () => settingsProvider.setListStyle(style),
-          )).toList(),
+          )),
           
           const Divider(),
 
@@ -75,7 +75,7 @@ class SettingsScreen extends StatelessWidget {
               mode, 
               settingsProvider.playerMode == mode,
               () => settingsProvider.setPlayerMode(mode),
-            )).toList(),
+            )),
             
             const Divider(),
           ],
@@ -146,7 +146,7 @@ class SettingsScreen extends StatelessWidget {
                 }
               },
             ),
-          ).toList(),
+          ),
           
           const Divider(),
           
