@@ -6,7 +6,7 @@ publish_to: 'none'  # Prevent accidental publication to pub.dev
 version: 1.6.0+6
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"  # Dart SDK version
+  sdk: ">=2.17.0 <3.29.1"  # Dart SDK version
 
 dependencies:
   flutter:
@@ -30,7 +30,7 @@ dependencies:
   http: ^1.2.2
   rxdart: ^0.28.0
   audioplayers: ^6.2.1
-  flutter_slidable: ^4.0.0
+  flutter_slidable: ^3.1.2
   provider: ^6.0.5     # State management
   cached_network_image: ^3.3.0  # Improved image caching
   flutter_blue_plus: ^1.10.2  # Bluetooth functionality

@@ -30,8 +30,8 @@
 
             <data android:mimeType="text/plain" />
         </intent>
-    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-    <!-- <uses-sdk android:minSdkVersion="21" /> -->
+    </queries>
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
@@ -127,6 +127,56 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <provider
+            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+            android:authorities="com.haweeinc.lpmi_premium.flutter.image_provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/flutter_image_picker_file_paths" />
+        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+        <service
+            android:name="com.google.android.gms.metadata.ModuleDependencies"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+            </intent-filter>
+
+            <meta-data
+                android:name="photopicker_activity:0:required"
+                android:value="" />
+        </service>
+        <!--
+           Declares a provider which allows us to store files to share in
+           '.../caches/share_plus' and grant the receiving action access
+        -->
+        <provider
+            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+            android:authorities="com.haweeinc.lpmi_premium.flutter.share_provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/flutter_share_file_paths" />
+        </provider>
+        <!--
+           This manifest declared broadcast receiver allows us to use an explicit
+           Intent when creating a PendingItent to be informed of the user's choice
+        -->
+        <receiver
+            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -181,57 +231,6 @@
             android:fitsSystemWindows="true"
             android:theme="@style/Theme.Hidden" >
         </activity>
-
-        <provider
-            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-            android:authorities="com.haweeinc.lpmi_premium.flutter.image_provider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/flutter_image_picker_file_paths" />
-        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
-        <service
-            android:name="com.google.android.gms.metadata.ModuleDependencies"
-            android:enabled="false"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-            </intent-filter>
-
-            <meta-data
-                android:name="photopicker_activity:0:required"
-                android:value="" />
-        </service>
-        <!--
-           Declares a provider which allows us to store files to share in
-           '.../caches/share_plus' and grant the receiving action access
-        -->
-        <provider
-            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-            android:authorities="com.haweeinc.lpmi_premium.flutter.share_provider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/flutter_share_file_paths" />
-        </provider>
-        <!--
-           This manifest declared broadcast receiver allows us to use an explicit
-           Intent when creating a PendingItent to be informed of the user's choice
-        -->
-        <receiver
-            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="EXTRA_CHOSEN_COMPONENT" />
-            </intent-filter>
-        </receiver>
-
-        <activity
-            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
