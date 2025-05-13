@@ -37,8 +37,10 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: const Icon(Icons.settings),
             onPressed: () {
               // Get the necessary providers
-              final themeProvider = Provider.of<ThemeProvider>(context, listen: false);
-              final settingsProvider = Provider.of<SettingsProvider>(context, listen: false);
+              final themeProvider =
+                  Provider.of<ThemeProvider>(context, listen: false);
+              final settingsProvider =
+                  Provider.of<SettingsProvider>(context, listen: false);
 
               // Navigate to settings screen with all required parameters
               Navigator.push(
