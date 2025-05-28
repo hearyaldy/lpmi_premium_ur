@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-63:/values-km/values-km.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-59:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/res/values-km/values-km.xml",

@@ -12,8 +12,8 @@ MERGED from [:firebase_core] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/
 MERGED from [:firebase_core] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_core-3.13.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
 MERGED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
-MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-33:19
-MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-33:19
+MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-33:19
+MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-33:19
 MERGED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
@@ -74,21 +74,16 @@ INJECTED from /Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/
 INJECTED from /Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 MERGED from [:audioplayers_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/audioplayers_android-5.2.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.7/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_auth] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_auth-5.5.3/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_storage] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_storage-12.4.5/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_core-3.13.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:flutter_blue_plus_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_blue_plus_android-4.0.5/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:flutter_native_splash] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.6/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.28/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:fluttertoast] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/fluttertoast-8.2.12/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:package_info_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/package_info_plus-8.3.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.17/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-35:12
+MERGED from [:permission_handler_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-35:12
 MERGED from [:shared_preferences_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.10/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:sqflite_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/sqflite_android-2.4.1/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:2:1-26:12
@@ -224,36 +219,26 @@ MERGED from [:audioplayers_android] /Users/hearyhealdysairin/.pub-cache/hosted/p
 MERGED from [:audioplayers_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/audioplayers_android-5.2.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.7/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.7/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_auth-5.5.3/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_auth-5.5.3/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_storage-12.4.5/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_storage-12.4.5/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_core-3.13.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_core-3.13.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_blue_plus_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_blue_plus_android-4.0.5/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-44
-MERGED from [:flutter_blue_plus_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_blue_plus_android-4.0.5/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-44
-MERGED from [:flutter_native_splash] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.6/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_native_splash] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.6/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
 MERGED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.28/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.28/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/fluttertoast-8.2.12/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/fluttertoast-8.2.12/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:package_info_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/package_info_plus-8.3.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:package_info_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/package_info_plus-8.3.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.17/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.17/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.10/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.10/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/sqflite_android-2.4.1/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/sqflite_android-2.4.1/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:21:5-23:151
@@ -456,20 +441,6 @@ ADDED from [:cloud_firestore] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev
 		ADDED from [:cloud_firestore] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.7/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:cloud_firestore] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/cloud_firestore-5.6.7/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
-MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:8:5-79
-MERGED from [io.grpc:grpc-android:1.62.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7c291d85eddfd22d4b9710936ca75d07/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
-MERGED from [io.grpc:grpc-android:1.62.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7c291d85eddfd22d4b9710936ca75d07/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
-	android:name
-		ADDED from [:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
 ADDED from [:firebase_auth] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/firebase_auth-5.5.3/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
@@ -527,27 +498,27 @@ ADDED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pu
 	android:name
 		ADDED from [:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
 provider#dev.fluttercommunity.plus.share.ShareFileProvider
-ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
+ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
 	android:grantUriPermissions
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
 	android:authorities
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
 	android:exported
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
 receiver#dev.fluttercommunity.plus.share.SharePlusPendingIntent
-ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
+ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
 	android:exported
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
 intent-filter#action:name:EXTRA_CHOSEN_COMPONENT
-ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
 action#EXTRA_CHOSEN_COMPONENT
-ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
+ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
 	android:name
-		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
+		ADDED from [:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
 activity#io.flutter.plugins.urllauncher.WebViewActivity
 ADDED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
 	android:exported
@@ -556,6 +527,18 @@ ADDED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pu
 		ADDED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
 	android:name
 		ADDED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.16/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7c291d85eddfd22d4b9710936ca75d07/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7c291d85eddfd22d4b9710936ca75d07/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:26:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents

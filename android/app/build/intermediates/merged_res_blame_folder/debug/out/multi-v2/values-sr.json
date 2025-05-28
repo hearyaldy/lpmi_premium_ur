@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-63:/values-sr/values-sr.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-59:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/99da1541edf0ee5a05af80e0fbf1af63/transformed/browser-1.8.0/res/values-sr/values-sr.xml",

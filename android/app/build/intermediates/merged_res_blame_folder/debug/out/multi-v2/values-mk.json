@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-63:/values-mk/values-mk.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-59:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/res/values-mk/values.xml",

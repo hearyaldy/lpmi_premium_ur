@@ -137,7 +137,7 @@ class _SongDetailScreenState extends State<SongDetailScreen> {
             height: 180,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/header_image.png'),
+                image: AssetImage('assets/images/header_image.png'),
                 fit: BoxFit.cover,
               ),
             ),

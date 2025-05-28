@@ -1047,7 +1047,7 @@ class SongListScreenState extends State<SongListScreen>
               decoration: BoxDecoration(
                 color: widget.isDarkTheme ? Colors.grey[900] : Colors.blue,
                 image: const DecorationImage(
-                  image: AssetImage('assets/header_image.png'),
+                  image: AssetImage('assets/images/header_image.png'),
                   fit: BoxFit.cover,
                   opacity: 0.7,
                 ),
@@ -1241,3 +1241,67 @@ class SongListScreenState extends State<SongListScreen>
     );
   }
 }
+
+// Add this to any screen temporarily to test icons
+
+class IconDebugWidget extends StatelessWidget {
+  const IconDebugWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        children: [
+          Text('Icon Debug Test'),
+          SizedBox(height: 16),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Column(
+                children: [
+                  Icon(Icons.home, size: 30),
+                  Text('Home'),
+                ],
+              ),
+              Column(
+                children: [
+                  Icon(Icons.music_note, size: 30),
+                  Text('Music'),
+                ],
+              ),
+              Column(
+                children: [
+                  Icon(Icons.email, size: 30),
+                  Text('Email'),
+                ],
+              ),
+              Column(
+                children: [
+                  Icon(Icons.lock, size: 30),
+                  Text('Lock'),
+                ],
+              ),
+            ],
+          ),
+          SizedBox(height: 16),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Icon(Icons.visibility, size: 30, color: Colors.blue),
+              Icon(Icons.visibility_off, size: 30, color: Colors.red),
+              Icon(Icons.favorite, size: 30, color: Colors.pink),
+              Icon(Icons.star, size: 30, color: Colors.amber),
+            ],
+          ),
+          SizedBox(height: 16),
+          Text('Material Design: ${Theme.of(context).useMaterial3}'),
+          Text('Platform: ${Theme.of(context).platform}'),
+        ],
+      ),
+    );
+  }
+}
+
+// Usage: Add this widget temporarily to your login screen or any screen:
+// IconDebugWidget(),

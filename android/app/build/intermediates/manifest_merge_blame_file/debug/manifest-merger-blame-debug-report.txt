@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.haweeinc.lpmi_premium"
-4    android:versionCode="6"
-5    android:versionName="1.6.0" >
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
@@ -47,8 +47,8 @@
 33    </queries>
 34
 35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-35-->[:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
-35-->[:connectivity_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+35-->[com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
+35-->[com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:26:22-76
 36    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 36-->[com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:9:5-98
 36-->[com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:9:22-95
@@ -238,15 +238,15 @@
 153           '.../caches/share_plus' and grant the receiving action access
 154        -->
 155        <provider
-155-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
+155-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
 156            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-156-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
+156-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
 157            android:authorities="com.haweeinc.lpmi_premium.flutter.share_provider"
-157-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
+157-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
 158            android:exported="false"
-158-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+158-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 159            android:grantUriPermissions="true" >
-159-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+159-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
 160            <meta-data
 160-->[:image_picker_android] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+23/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
 161                android:name="android.support.FILE_PROVIDER_PATHS"
@@ -259,16 +259,16 @@
 166           Intent when creating a PendingItent to be informed of the user's choice
 167        -->
 168        <receiver
-168-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
+168-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
 169            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
-169-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
+169-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
 170            android:exported="false" >
-170-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+170-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
 171            <intent-filter>
-171-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+171-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
 172                <action android:name="EXTRA_CHOSEN_COMPONENT" />
-172-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
-172-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-11.0.0/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
+172-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
+172-->[:share_plus] /Users/hearyhealdysairin/.pub-cache/hosted/pub.dev/share_plus-10.1.4/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
 173            </intent-filter>
 174        </receiver>
 175

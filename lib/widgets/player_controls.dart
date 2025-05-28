@@ -64,7 +64,7 @@ class PlayerControls extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 10.0),
                 child: Image.asset(
-                  'assets/music_note.gif',
+                  'assets/images/music_note.gif',
                   height: 60,
                   width: 60,
                   fit: BoxFit.cover,
@@ -91,12 +91,15 @@ class PlayerControls extends StatelessWidget {
                     // Seek slider
                     Slider(
                       value: position.inSeconds.toDouble(),
-                      max: duration.inSeconds > 0 ? duration.inSeconds.toDouble() : 1.0,
+                      max: duration.inSeconds > 0
+                          ? duration.inSeconds.toDouble()
+                          : 1.0,
                       onChanged: (value) {
                         onSeek(Duration(seconds: value.toInt()));
                       },
                       activeColor: isDarkTheme ? Colors.white : Colors.blue,
-                      inactiveColor: isDarkTheme ? Colors.grey : Colors.grey[300],
+                      inactiveColor:
+                          isDarkTheme ? Colors.grey : Colors.grey[300],
                     ),
                     // Position and duration indicators
                     Row(
@@ -105,14 +108,16 @@ class PlayerControls extends StatelessWidget {
                         Text(
                           _formatDuration(position),
                           style: TextStyle(
-                            color: isDarkTheme ? Colors.white70 : Colors.black54,
+                            color:
+                                isDarkTheme ? Colors.white70 : Colors.black54,
                             fontSize: 12,
                           ),
                         ),
                         Text(
                           _formatDuration(duration),
                           style: TextStyle(
-                            color: isDarkTheme ? Colors.white70 : Colors.black54,
+                            color:
+                                isDarkTheme ? Colors.white70 : Colors.black54,
                             fontSize: 12,
                           ),
                         ),
@@ -152,7 +157,7 @@ class PlayerControls extends StatelessWidget {
               IconButton(
                 icon: Icon(
                   isLooping ? Icons.loop : Icons.loop_outlined,
-                  color: isLooping 
+                  color: isLooping
                       ? (isDarkTheme ? Colors.greenAccent : Colors.green)
                       : (isDarkTheme ? Colors.white : Colors.black87),
                 ),
