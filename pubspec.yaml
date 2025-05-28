@@ -6,61 +6,60 @@ publish_to: 'none'  # Prevent accidental publication to pub.dev
 version: 1.6.0+6
 
 environment:
-  sdk: ">=2.17.0 <3.29.1"  # Dart SDK version
+  sdk: ">=2.17.0 <3.8.0"  # Updated to include Dart 3.7.2
 
 dependencies:
   flutter:
     sdk: flutter
   
   # Firebase packages
-  firebase_core: ^3.12.1
-  firebase_auth: ^5.5.1
-  cloud_firestore: ^5.6.5
-  firebase_storage: ^12.4.4
-  permission_handler: ^11.3.1
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  firebase_storage: ^12.4.5
+  permission_handler: ^12.0.0+1
   flutter_localizations:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.6
   flutter_speed_dial: ^7.0.0
   intl: ^0.19.0
-  share_plus: ^10.0.3
-  shared_preferences: ^2.0.13
-  path_provider: ^2.0.12
-  path_provider_android: ^2.0.11
-  http: ^1.2.2
+  share_plus: ^11.0.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  path_provider_android: ^2.2.1
+  http: ^1.1.2
   rxdart: ^0.28.0
-  audioplayers: ^6.2.1
-  flutter_slidable: ^3.1.2
-  provider: ^6.0.5     # State management
+  audioplayers: ^6.4.0
+  flutter_slidable: ^4.0.0
+  provider: ^6.1.1     # State management
   cached_network_image: ^3.3.0  # Improved image caching
-  flutter_blue_plus: ^1.10.2  # Bluetooth functionality
-  fluttertoast: ^8.2.2  # Toast notifications
-  url_launcher: ^6.1.11  # Launch URLs
+  flutter_blue_plus: ^1.5.3  # Bluetooth functionality
+  fluttertoast: ^8.2.4  # Toast notifications
+  url_launcher: ^6.2.3  # Launch URLs
   flutter_cache_manager: ^3.3.1  # Cache management
   hive: ^2.2.3  # Local database
   hive_flutter: ^1.1.0  # Flutter integration for Hive
-  connectivity_plus: ^6.1.3  # Network connectivity
+  connectivity_plus: ^6.1.4  # Network connectivity
   equatable: ^2.0.5  # Equality comparison
-  flutter_bloc: ^9.1.0  # BLoC state management
-  google_fonts: ^6.2.1  # Custom fonts from Google Fonts
-  flutter_spinkit: ^5.1.0  # Loading animations
+  flutter_bloc: ^9.1.1  # BLoC state management
+  google_fonts: ^6.1.0  # Custom fonts from Google Fonts
+  flutter_spinkit: ^5.2.0  # Loading animations
   package_info_plus: ^8.3.0  # App package information
-  flutter_native_splash: ^2.2.19  # Custom splash screen
-  flutter_animate: ^4.1.1  # Animation utilities
+  flutter_native_splash: ^2.3.8  # Custom splash screen
+  flutter_animate: ^4.3.0  # Animation utilities
   image_picker: ^1.0.7  # Use the latest version
   flutter_plugin_android_lifecycle: ^2.0.17
-  #t imezone: ^0.9.2
-  # flutter_local_notifications: ^14.1.5  # Use the latest version
+  #timezone: ^0.9.2
+  # flutter_local_notifications: ^14.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  flutter_launcher_icons: ^0.14.1
+  flutter_launcher_icons: ^0.14.3
   hive_generator: ^2.0.1  # Hive code generation
-  build_runner: ^2.3.3  # Code generation runner
+  build_runner: ^2.4.6  # Code generation runner
 
-# The rest of your configuration remains unchanged
 flutter_icons:
   android: true
   ios: true
@@ -78,4 +77,3 @@ flutter:
     - assets/app_icon.png
     - assets/song_list.json
     - assets/music_note.gif
-

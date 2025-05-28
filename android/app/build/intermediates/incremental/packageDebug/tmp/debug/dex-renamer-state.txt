@@ -1,12 +1,12 @@
-#Sun Mar 09 22:02:53 ICT 2025
-base.0=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.2=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.4=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
-base.5=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/desugar_lib_dex/debug/l8DexDesugarLibDebug/classes1000.dex
-base.6=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-base.7=/Users/heary/Documents/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
+#Tue May 13 16:18:48 ICT 2025
+base.0=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
+base.5=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/desugar_lib_dex/debug/classes1000.dex
+base.6=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.7=/Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
