@@ -13,14 +13,14 @@ android {
     configurations.all {
         resolutionStrategy {
             // Force Kotlin 1.9.22 for all Kotlin libraries
-            force("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
-            force("org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.0")
-            force("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0")
-            force("org.jetbrains.kotlin:kotlin-reflect:2.0.0")
+            force("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
+            force("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.22")
+            force("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22")
+            force("org.jetbrains.kotlin:kotlin-reflect:1.9.22")
             
             // Force a compatible version of androidx.core
-            force("androidx.core:core:1.12.0")
-            force("androidx.core:core-ktx:1.12.0")
+            force("androidx.core:core:1.13.1")
+            force("androidx.core:core-ktx:1.13.1")
         }
     }
 
@@ -62,14 +62,18 @@ android {
 dependencies {
     // Use specific versions instead of BOM to ensure compatibility
     implementation("com.google.firebase:firebase-auth:22.3.0") {
-        exclude(group = "org.jetbrains.kotlin")  // Corrected Kotlin DSL syntax
+        exclude(group = "org.jetbrains.kotlin")
     }
     implementation("com.google.firebase:firebase-firestore:24.9.1") {
-        exclude(group = "org.jetbrains.kotlin")  // Corrected Kotlin DSL syntax
+        exclude(group = "org.jetbrains.kotlin")
     }
     implementation("com.google.firebase:firebase-storage:20.3.0") {
-        exclude(group = "org.jetbrains.kotlin")  // Corrected Kotlin DSL syntax
+        exclude(group = "org.jetbrains.kotlin")
     }
+    
+    // Fix androidx.core compatibility issue
+    implementation("androidx.core:core:1.13.1")
+    implementation("androidx.core:core-ktx:1.13.1")
     
     // Explicitly add Kotlin dependencies
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
@@ -82,4 +86,58 @@ dependencies {
 
 flutter {
     source = ".."
+}
+
+// Fix for Flutter APK location issue - Kotlin DSL version
+tasks.configureEach {
+    if (name == "assembleDebug") {
+        finalizedBy("copyDebugApkToFlutterExpectedLocation")
+    }
+    if (name == "assembleRelease") {
+        finalizedBy("copyReleaseApkToFlutterExpectedLocation")
+    }
+}
+
+tasks.register("copyDebugApkToFlutterExpectedLocation") {
+    doLast {
+        val appBuildDir = layout.buildDirectory.get().asFile
+        val projectRootDir = project.rootDir.parentFile
+        val sourceDir = File(appBuildDir, "outputs/apk/debug")
+        val targetDir = File(projectRootDir, "build/app/outputs/flutter-apk")
+        
+        if (sourceDir.exists()) {
+            targetDir.mkdirs()
+            
+            val apkFiles = sourceDir.listFiles()?.filter { it.name.endsWith(".apk") } ?: emptyList()
+            if (apkFiles.isNotEmpty()) {
+                val sourceApk = apkFiles[0]
+                val targetApk = File(targetDir, "app-debug.apk")
+                
+                sourceApk.copyTo(targetApk, overwrite = true)
+                println("Copied APK from ${sourceApk.path} to ${targetApk.path}")
+            }
+        }
+    }
+}
+
+tasks.register("copyReleaseApkToFlutterExpectedLocation") {
+    doLast {
+        val appBuildDir = layout.buildDirectory.get().asFile
+        val projectRootDir = project.rootDir.parentFile
+        val sourceDir = File(appBuildDir, "outputs/apk/release")
+        val targetDir = File(projectRootDir, "build/app/outputs/flutter-apk")
+        
+        if (sourceDir.exists()) {
+            targetDir.mkdirs()
+            
+            val apkFiles = sourceDir.listFiles()?.filter { it.name.endsWith(".apk") } ?: emptyList()
+            if (apkFiles.isNotEmpty()) {
+                val sourceApk = apkFiles[0]
+                val targetApk = File(targetDir, "app-release.apk")
+                
+                sourceApk.copyTo(targetApk, overwrite = true)
+                println("Copied APK from ${sourceApk.path} to ${targetApk.path}")
+            }
+        }
+    }
 }

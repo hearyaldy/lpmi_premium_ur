@@ -10,10 +10,10 @@ import 'screens/auth/login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   // Initialize Firebase
   await FirebaseConfig.initializeFirebase();
-  
+
   runApp(const MyApp());
 }
 
@@ -52,7 +52,9 @@ class _MyAppState extends State<MyApp> {
           return MaterialApp(
             title: 'Song Collection App',
             theme: ThemeData(
-              brightness: settingsProvider.isDarkTheme ? Brightness.dark : Brightness.light,
+              brightness: settingsProvider.isDarkTheme
+                  ? Brightness.dark
+                  : Brightness.light,
               fontFamily: settingsProvider.fontFamily,
               primarySwatch: Colors.blue,
               useMaterial3: true,
@@ -63,7 +65,8 @@ class _MyAppState extends State<MyApp> {
               primarySwatch: Colors.blue,
               useMaterial3: true,
             ),
-            themeMode: settingsProvider.isDarkTheme ? ThemeMode.dark : ThemeMode.light,
+            themeMode:
+                settingsProvider.isDarkTheme ? ThemeMode.dark : ThemeMode.light,
             home: authProvider.isLoading
                 ? const Center(child: CircularProgressIndicator())
                 : authProvider.isAuthenticated
@@ -71,21 +74,17 @@ class _MyAppState extends State<MyApp> {
                         fontSize: settingsProvider.fontSize,
                         fontFamily: settingsProvider.fontFamily,
                         isDarkTheme: settingsProvider.isDarkTheme,
-                        onFontChange: (font) => settingsProvider.setFontFamily(font),
-                        onFontSizeChange: (size) => settingsProvider.setFontSize(size),
-                        onThemeChange: (dark) => settingsProvider.setIsDarkTheme(dark),
+                        onFontChange: (font) =>
+                            settingsProvider.setFontFamily(font),
+                        onFontSizeChange: (size) =>
+                            settingsProvider.setFontSize(size),
+                        onThemeChange: (dark) =>
+                            settingsProvider.setIsDarkTheme(dark),
                       )
                     : const LoginScreen(),
             routes: {
               '/login': (context) => const LoginScreen(),
-              '/home': (context) => SongListScreen(
-                    fontSize: settingsProvider.fontSize,
-                    fontFamily: settingsProvider.fontFamily,
-                    isDarkTheme: settingsProvider.isDarkTheme,
-                    onFontChange: (font) => settingsProvider.setFontFamily(font),
-                    onFontSizeChange: (size) => settingsProvider.setFontSize(size),
-                    onThemeChange: (dark) => settingsProvider.setIsDarkTheme(dark),
-                  ),
+              // Removed the '/home' route - let the main widget handle routing
             },
             debugShowCheckedModeBanner: false,
           );

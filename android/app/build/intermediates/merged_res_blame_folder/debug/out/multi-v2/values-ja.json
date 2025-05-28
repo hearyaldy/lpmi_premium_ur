@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-64:/values-ja/values-ja.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-63:/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/res/values-ja/values.xml",
@@ -106,7 +106,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/res/values-ja/values-ja.xml",
+                    "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

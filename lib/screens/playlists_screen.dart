@@ -40,7 +40,8 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
 
   Future<void> _loadPlaylists() async {
     final authProvider = Provider.of<AuthProvider>(context, listen: false);
-    final playlistProvider = Provider.of<PlaylistProvider>(context, listen: false);
+    final playlistProvider =
+        Provider.of<PlaylistProvider>(context, listen: false);
 
     if (authProvider.isAuthenticated) {
       await playlistProvider.loadPlaylists();
@@ -93,12 +94,13 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
           TextButton(
             onPressed: () async {
               if (_formKey.currentState!.validate()) {
-                final playlistProvider = Provider.of<PlaylistProvider>(context, listen: false);
+                final playlistProvider =
+                    Provider.of<PlaylistProvider>(context, listen: false);
                 final success = await playlistProvider.createPlaylist(
                   _nameController.text,
                   description: _descriptionController.text,
                 );
-                
+
                 if (mounted) {
                   Navigator.pop(context);
                   if (success) {
@@ -111,7 +113,8 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
-                        content: Text('Failed to create playlist. Please try again.'),
+                        content: Text(
+                            'Failed to create playlist. Please try again.'),
                         backgroundColor: Colors.red,
                       ),
                     );
@@ -146,7 +149,7 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.queue_music,
                           size: 64,
                           color: Colors.grey,
@@ -343,8 +346,8 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
               ),
               ListTile(
                 leading: const Icon(Icons.delete, color: Colors.red),
-                title: const Text('Delete Playlist', 
-                  style: TextStyle(color: Colors.red)),
+                title: const Text('Delete Playlist',
+                    style: TextStyle(color: Colors.red)),
                 onTap: () async {
                   Navigator.pop(context);
                   await _confirmDeletePlaylist(playlist);
@@ -359,28 +362,31 @@ class _PlaylistsScreenState extends State<PlaylistsScreen> {
 
   Future<void> _confirmDeletePlaylist(Playlist playlist) async {
     final confirmed = await showDialog<bool>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Delete Playlist'),
-        content: Text('Are you sure you want to delete "${playlist.name}"? This action cannot be undone.'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('Cancel'),
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('Delete Playlist'),
+            content: Text(
+                'Are you sure you want to delete "${playlist.name}"? This action cannot be undone.'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context, false),
+                child: const Text('Cancel'),
+              ),
+              TextButton(
+                onPressed: () => Navigator.pop(context, true),
+                style: TextButton.styleFrom(foregroundColor: Colors.red),
+                child: const Text('Delete'),
+              ),
+            ],
           ),
-          TextButton(
-            onPressed: () => Navigator.pop(context, true),
-            style: TextButton.styleFrom(foregroundColor: Colors.red),
-            child: const Text('Delete'),
-          ),
-        ],
-      ),
-    ) ?? false;
+        ) ??
+        false;
 
     if (confirmed) {
-      final playlistProvider = Provider.of<PlaylistProvider>(context, listen: false);
+      final playlistProvider =
+          Provider.of<PlaylistProvider>(context, listen: false);
       final success = await playlistProvider.deletePlaylist(playlist.id);
-      
+
       if (mounted && success) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(

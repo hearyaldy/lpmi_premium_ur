@@ -92,7 +92,8 @@ class _PlaylistDetailScreenState extends State<PlaylistDetailScreen> {
     final collection = widget.playlist.songIds[index].split('_')[1];
     final songId = "${song.songNumber}_$collection";
 
-    final playlistProvider = Provider.of<PlaylistProvider>(context, listen: false);
+    final playlistProvider =
+        Provider.of<PlaylistProvider>(context, listen: false);
     final success = await playlistProvider.removeSongFromPlaylist(
       widget.playlist.id,
       songId,
@@ -136,7 +137,7 @@ class _PlaylistDetailScreenState extends State<PlaylistDetailScreen> {
   }
 
   Widget _buildEmptyPlaylist() {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -145,16 +146,16 @@ class _PlaylistDetailScreenState extends State<PlaylistDetailScreen> {
             size: 64,
             color: Colors.grey,
           ),
-          const SizedBox(height: 16),
-          const Text(
+          SizedBox(height: 16),
+          Text(
             'No songs in this playlist',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
             ),
           ),
-          const SizedBox(height: 8),
-          const Text(
+          SizedBox(height: 8),
+          Text(
             'Add songs to this playlist from the song details screen',
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.grey),
@@ -212,7 +213,7 @@ class _PlaylistDetailScreenState extends State<PlaylistDetailScreen> {
           ),
         ),
         const Divider(),
-        
+
         // Song list header
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
@@ -227,8 +228,7 @@ class _PlaylistDetailScreenState extends State<PlaylistDetailScreen> {
               ),
               const Spacer(),
               // Play all button
-              if (_playlistSongs.isNotEmpty && 
-                  _playlistSongs[0].url != null)
+              if (_playlistSongs.isNotEmpty && _playlistSongs[0].url != null)
                 TextButton.icon(
                   icon: const Icon(Icons.play_arrow),
                   label: const Text('Play All'),
@@ -240,18 +240,21 @@ class _PlaylistDetailScreenState extends State<PlaylistDetailScreen> {
             ],
           ),
         ),
-        
+
         // Song list
         Expanded(
           child: ListView.builder(
             itemCount: _playlistSongs.length,
             itemBuilder: (context, index) {
               final song = _playlistSongs[index];
-              final isPlaying = songProvider.playingSongNumber == song.songNumber;
-              
+              final isPlaying =
+                  songProvider.playingSongNumber == song.songNumber;
+
               return ListTile(
                 leading: CircleAvatar(
-                  backgroundColor: isPlaying ? Colors.blue.withOpacity(0.2) : Colors.grey.withOpacity(0.1),
+                  backgroundColor: isPlaying
+                      ? Colors.blue.withOpacity(0.2)
+                      : Colors.grey.withOpacity(0.1),
                   child: Text(
                     song.songNumber,
                     style: TextStyle(

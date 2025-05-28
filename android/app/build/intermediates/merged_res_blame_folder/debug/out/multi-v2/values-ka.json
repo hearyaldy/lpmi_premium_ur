@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-64:/values-ka/values-ka.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-63:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/res/values-ka/values.xml",
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/res/values-ka/values-ka.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,352,451,557,661,779",
-                        "endColumns": "95,101,98,98,105,103,117,100",
-                        "endOffsets": "146,248,347,446,552,656,774,875"
-                    },
-                    "to": {
-                        "startLines": "31,32,33,34,35,36,37,65",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3041,3137,3239,3338,3437,3543,3647,6875",
-                        "endColumns": "95,101,98,98,105,103,117,100",
-                        "endOffsets": "3132,3234,3333,3432,3538,3642,3760,6971"
-                    }
-                },
-                {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/71d14a7f231865ff8a9697ec2e17115a/transformed/preference-1.2.1/res/values-ka/values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
@@ -86,6 +69,23 @@
                         "startOffsets": "6057,6251,6354,6464",
                         "endColumns": "105,102,109,104",
                         "endOffsets": "6158,6349,6459,6564"
+                    }
+                },
+                {
+                    "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/res/values-ka/values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,557,661,779",
+                        "endColumns": "95,101,98,98,105,103,117,100",
+                        "endOffsets": "146,248,347,446,552,656,774,875"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,65",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3041,3137,3239,3338,3437,3543,3647,6875",
+                        "endColumns": "95,101,98,98,105,103,117,100",
+                        "endOffsets": "3132,3234,3333,3432,3538,3642,3760,6971"
                     }
                 },
                 {

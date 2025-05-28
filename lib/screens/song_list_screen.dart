@@ -203,7 +203,7 @@ class SongListScreenState extends State<SongListScreen>
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(
-              'assets/app_icon.png',
+              'assets/images/app_icon.png',
               height: 80,
               width: 80,
             ),
@@ -231,7 +231,7 @@ class SongListScreenState extends State<SongListScreen>
       height: 220, // Increased height to accommodate status bar
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/header_image.png'),
+          image: AssetImage('assets/images/header_image.png'),
           fit: BoxFit.cover,
         ),
       ),
@@ -326,7 +326,8 @@ class SongListScreenState extends State<SongListScreen>
 
   Widget _buildSearchBar() {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 24, 16, 16), // Added more top padding
+      padding:
+          const EdgeInsets.fromLTRB(16, 24, 16, 16), // Added more top padding
       child: Row(
         children: [
           // Search field
@@ -348,11 +349,13 @@ class SongListScreenState extends State<SongListScreen>
                 decoration: InputDecoration(
                   hintText: AppStrings.searchHint,
                   hintStyle: TextStyle(
-                    color: widget.isDarkTheme ? Colors.grey[400] : Colors.black54,
+                    color:
+                        widget.isDarkTheme ? Colors.grey[400] : Colors.black54,
                   ),
                   prefixIcon: Icon(
                     Icons.search,
-                    color: widget.isDarkTheme ? Colors.grey[400] : Colors.black54,
+                    color:
+                        widget.isDarkTheme ? Colors.grey[400] : Colors.black54,
                   ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30.0),
@@ -365,7 +368,9 @@ class SongListScreenState extends State<SongListScreen>
                       ? IconButton(
                           icon: Icon(
                             Icons.clear,
-                            color: widget.isDarkTheme ? Colors.grey[400] : Colors.black54,
+                            color: widget.isDarkTheme
+                                ? Colors.grey[400]
+                                : Colors.black54,
                           ),
                           onPressed: () {
                             _searchController.clear();
@@ -529,7 +534,7 @@ class SongListScreenState extends State<SongListScreen>
                     backgroundColor: Colors.blue.withOpacity(0.1),
                     child: Text(
                       song.songNumber,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
@@ -633,7 +638,7 @@ class SongListScreenState extends State<SongListScreen>
                 width: double.infinity,
                 child: Text(
                   key,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 18,
                     color: Colors.blue,
@@ -1051,13 +1056,13 @@ class SongListScreenState extends State<SongListScreen>
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Text(
+                  const Text(
                     'Song Collections',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      shadows: const [
+                      shadows: [
                         Shadow(
                           offset: Offset(1, 1),
                           blurRadius: 3,

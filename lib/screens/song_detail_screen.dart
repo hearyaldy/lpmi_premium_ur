@@ -98,13 +98,14 @@ class _SongDetailScreenState extends State<SongDetailScreen> {
 
   Future<void> _togglePlayPause() async {
     try {
-      await widget.audioPlayerService.playOrPause(widget.song.url ?? '', widget.song.songTitle);
+      await widget.audioPlayerService
+          .playOrPause(widget.song.url ?? '', widget.song.songTitle);
       setState(() {
         _isPlaying = widget.audioPlayerService.isPlaying;
       });
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error: Unable to play song.')),
+        const SnackBar(content: Text('Error: Unable to play song.')),
       );
     }
   }
@@ -124,218 +125,222 @@ class _SongDetailScreenState extends State<SongDetailScreen> {
     );
   }
 
- // Updated build method for SongDetailScreen with Original Header
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    backgroundColor: widget.isDarkTheme ? Colors.black : Colors.white,
-    body: Stack(
-      children: [
-        // Keep your original header
-        Container(
-          height: 180,
-          decoration: const BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('assets/header_image.png'),
-              fit: BoxFit.cover,
-            ),
-          ),
-        ),
-        Positioned(
-          top: 150,
-          left: 0,
-          right: 0,
-          child: Container(
-            decoration: BoxDecoration(
-              color: widget.isDarkTheme ? Colors.black87 : Colors.white,
-              borderRadius: const BorderRadius.only(
-                topLeft: Radius.circular(25.0),
-                topRight: Radius.circular(25.0),
+  // Updated build method for SongDetailScreen with Original Header
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: widget.isDarkTheme ? Colors.black : Colors.white,
+      body: Stack(
+        children: [
+          // Keep your original header
+          Container(
+            height: 180,
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/header_image.png'),
+                fit: BoxFit.cover,
               ),
             ),
-            padding: const EdgeInsets.fromLTRB(16, 24, 16, 12),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  '${widget.song.songNumber} | ${widget.collectionName}',
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontFamily: widget.fontFamily,
-                    color: Colors.blue,
-                  ),
+          ),
+          Positioned(
+            top: 150,
+            left: 0,
+            right: 0,
+            child: Container(
+              decoration: BoxDecoration(
+                color: widget.isDarkTheme ? Colors.black87 : Colors.white,
+                borderRadius: const BorderRadius.only(
+                  topLeft: Radius.circular(25.0),
+                  topRight: Radius.circular(25.0),
                 ),
-                const SizedBox(height: 8),
-                Text(
-                  widget.song.songTitle,
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: widget.fontFamily,
-                    color: Colors.grey,
+              ),
+              padding: const EdgeInsets.fromLTRB(16, 24, 16, 12),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '${widget.song.songNumber} | ${widget.collectionName}',
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontFamily: widget.fontFamily,
+                      color: Colors.blue,
+                    ),
                   ),
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                ),
-                const Divider(),
-              ],
+                  const SizedBox(height: 8),
+                  Text(
+                    widget.song.songTitle,
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: widget.fontFamily,
+                      color: Colors.grey,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const Divider(),
+                ],
+              ),
             ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.only(top: 280, bottom: 70), // Add bottom padding for the action bar
-          child: Container(
-            color: widget.isDarkTheme ? Colors.black : Colors.white,
-            child: ListView.builder(
-              padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
-              itemCount: widget.song.verses.length,
-              itemBuilder: (context, index) {
-                final verse = widget.song.verses[index];
-                return Padding(
-                  padding: const EdgeInsets.only(bottom: 16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Text(
-                          verse.verseNumber,
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                            fontFamily: widget.fontFamily,
-                            color: Colors.blue[900],
+          Padding(
+            padding: const EdgeInsets.only(
+                top: 280, bottom: 70), // Add bottom padding for the action bar
+            child: Container(
+              color: widget.isDarkTheme ? Colors.black : Colors.white,
+              child: ListView.builder(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+                itemCount: widget.song.verses.length,
+                itemBuilder: (context, index) {
+                  final verse = widget.song.verses[index];
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 16.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 16.0),
+                          child: Text(
+                            verse.verseNumber,
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                              fontFamily: widget.fontFamily,
+                              color: Colors.blue[900],
+                            ),
                           ),
                         ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        verse.lyrics,
-                        style: TextStyle(
-                          fontSize: lyricsFontSize,
-                          fontFamily: widget.fontFamily,
-                          color: widget.isDarkTheme ? Colors.white70 : Colors.black87,
+                        const SizedBox(height: 4),
+                        Text(
+                          verse.lyrics,
+                          style: TextStyle(
+                            fontSize: lyricsFontSize,
+                            fontFamily: widget.fontFamily,
+                            color: widget.isDarkTheme
+                                ? Colors.white70
+                                : Colors.black87,
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                );
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
+          ),
+          // Add a back button at the top
+          Positioned(
+            top: 40,
+            left: 10,
+            child: Material(
+              color: Colors.transparent,
+              child: IconButton(
+                icon: const Icon(Icons.arrow_back, color: Colors.white),
+                onPressed: () => Navigator.pop(context),
+              ),
+            ),
+          ),
+        ],
+      ),
+      // Bottom action bar
+      bottomNavigationBar: Container(
+        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+        decoration: BoxDecoration(
+          color: widget.isDarkTheme ? Colors.grey[900] : Colors.white,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              blurRadius: 4,
+              offset: const Offset(0, -2),
+            ),
+          ],
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            // Play/Pause button (only for LPMI collection)
+            if (widget.collectionName == 'Lagu Pujian Masa Ini')
+              _buildActionButton(
+                icon: _isPlaying ? Icons.pause : Icons.play_arrow,
+                label: _isPlaying ? 'Pause' : 'Play',
+                onPressed: _togglePlayPause,
+              ),
+
+            // Favorite button
+            _buildActionButton(
+              icon: widget.isFavorite ? Icons.favorite : Icons.favorite_border,
+              label: 'Favorite',
+              iconColor: widget.isFavorite ? Colors.red : null,
+              onPressed: () {
+                widget.toggleFavorite(widget.song);
+                setState(() {});
               },
             ),
-          ),
-        ),
-        // Add a back button at the top
-        Positioned(
-          top: 40,
-          left: 10,
-          child: Material(
-            color: Colors.transparent,
-            child: IconButton(
-              icon: const Icon(Icons.arrow_back, color: Colors.white),
-              onPressed: () => Navigator.pop(context),
-            ),
-          ),
-        ),
-      ],
-    ),
-    // Bottom action bar
-    bottomNavigationBar: Container(
-      padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-      decoration: BoxDecoration(
-        color: widget.isDarkTheme ? Colors.grey[900] : Colors.white,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 4,
-            offset: const Offset(0, -2),
-          ),
-        ],
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          // Play/Pause button (only for LPMI collection)
-          if (widget.collectionName == 'Lagu Pujian Masa Ini')
+
+            // Full screen button
             _buildActionButton(
-              icon: _isPlaying ? Icons.pause : Icons.play_arrow,
-              label: _isPlaying ? 'Pause' : 'Play',
-              onPressed: _togglePlayPause,
+              icon: Icons.fullscreen,
+              label: 'Full Screen',
+              onPressed: _goToFullScreen,
             ),
-          
-          // Favorite button
-          _buildActionButton(
-            icon: widget.isFavorite ? Icons.favorite : Icons.favorite_border,
-            label: 'Favorite',
-            iconColor: widget.isFavorite ? Colors.red : null,
-            onPressed: () {
-              widget.toggleFavorite(widget.song);
-              setState(() {});
-            },
+          ],
+        ),
+      ),
+      // Keep the FAM for additional actions
+      floatingActionButton: SpeedDial(
+        icon: Icons.more_vert,
+        activeIcon: Icons.close,
+        backgroundColor: Colors.purple,
+        children: [
+          SpeedDialChild(
+            child: const Icon(Icons.text_fields),
+            label: 'Adjust Font Size',
+            onTap: _showFontSlider,
           ),
-          
-          // Full screen button
-          _buildActionButton(
-            icon: Icons.fullscreen,
-            label: 'Full Screen',
-            onPressed: _goToFullScreen,
+          SpeedDialChild(
+            child: const Icon(Icons.share),
+            label: 'Share',
+            onTap: () => _shareSong(context),
           ),
         ],
       ),
-    ),
-    // Keep the FAM for additional actions
-    floatingActionButton: SpeedDial(
-      icon: Icons.more_vert,
-      activeIcon: Icons.close,
-      backgroundColor: Colors.purple,
-      children: [
-        SpeedDialChild(
-          child: const Icon(Icons.text_fields),
-          label: 'Adjust Font Size',
-          onTap: _showFontSlider,
-        ),
-        SpeedDialChild(
-          child: const Icon(Icons.share),
-          label: 'Share',
-          onTap: () => _shareSong(context),
-        ),
-      ],
-    ),
-  );
-}
+    );
+  }
 
 // Helper method to build consistent action buttons
-Widget _buildActionButton({
-  required IconData icon,
-  required String label,
-  required VoidCallback onPressed,
-  Color? iconColor,
-}) {
-  final Color defaultColor = widget.isDarkTheme ? Colors.white70 : Colors.black87;
-  
-  return InkWell(
-    onTap: onPressed,
-    borderRadius: BorderRadius.circular(8),
-    child: Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(
-            icon,
-            color: iconColor ?? defaultColor,
-            size: 24,
-          ),
-          const SizedBox(height: 4),
-          Text(
-            label,
-            style: TextStyle(
-              fontSize: 12,
-              color: defaultColor,
+  Widget _buildActionButton({
+    required IconData icon,
+    required String label,
+    required VoidCallback onPressed,
+    Color? iconColor,
+  }) {
+    final Color defaultColor =
+        widget.isDarkTheme ? Colors.white70 : Colors.black87;
+
+    return InkWell(
+      onTap: onPressed,
+      borderRadius: BorderRadius.circular(8),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              icon,
+              color: iconColor ?? defaultColor,
+              size: 24,
             ),
-          ),
-        ],
+            const SizedBox(height: 4),
+            Text(
+              label,
+              style: TextStyle(
+                fontSize: 12,
+                color: defaultColor,
+              ),
+            ),
+          ],
+        ),
       ),
-    ),
-  );
-}
+    );
+  }
 }

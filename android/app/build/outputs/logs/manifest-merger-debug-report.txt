@@ -26,12 +26,12 @@ MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysai
 MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4f1622446e6a8734667193668ad0f314/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4f1622446e6a8734667193668ad0f314/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c7d1b00bc813a4e575dddacc438fbbc7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c7d1b00bc813a4e575dddacc438fbbc7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/03a1b7f2a398a5277726d38dbb9efa53/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:5:5-6:19
@@ -42,28 +42,28 @@ MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/hearyheald
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b2eb78b59d4a0f35b004817709577fe/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/651bf081a21000d423a4ad7c2c6d6853/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/651bf081a21000d423a4ad7c2c6d6853/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
-MERGED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/11ede2c95c81966fabd45dffe55a1859/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/11ede2c95c81966fabd45dffe55a1859/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9a59c00a991701440669e2d29ba433ca/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9a59c00a991701440669e2d29ba433ca/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
 		INJECTED from /Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:name
 		INJECTED from /Users/hearyhealdysairin/Documents/GitHub/lpmi_premium_ur/android/app/src/main/AndroidManifest.xml
 manifest
@@ -93,16 +93,15 @@ MERGED from [:url_launcher_android] /Users/hearyhealdysairin/.pub-cache/hosted/p
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/da6849c96b487bcf773675506514eee6/transformed/jetified-firebase-auth-23.2.0/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:15:1-34:12
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
-MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/56ef8f2f739f2327e81f4694d2a7cf82/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.preference:preference:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/71d14a7f231865ff8a9697ec2e17115a/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3759d88c7fe2af8f2b789f8be6e40e34/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/de56e53fb0a63454164cce78d584cc6c/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4f1622446e6a8734667193668ad0f314/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c7d1b00bc813a4e575dddacc438fbbc7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9c471f1abf96909d65e3b52ee9df88c3/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/66b7210faa9cf861e8ea5acd4082ea28/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:2:1-11:12
@@ -112,29 +111,33 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/hearyh
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b2eb78b59d4a0f35b004817709577fe/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9581dc92154a59b46eb9e51dffb45035/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f6facfcc9dc1abd659d7334af583c8b5/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/73b59eb4b02dedb9e28c071d9827ace3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f5818bfbca9f2ee590ce365767223ced/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.window:window-java:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/87a7c36797b1f1dc9ef469cba85e301b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
-MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/27244a4b68f810d3b1b2bd8555877113/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7a070bb8ee959f0b7255ff9f6052d5f6/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/aa8e8335173e8d1283d070c499f962b9/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d4632ae9dd8f7dc83271400ebad45d0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5495d879a037915ac90ae2225bbf9b88/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/ffa32b335d1cc53646d19043b405db9d/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.9.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/af2f2762888cb49b9acd0c4f9c23158a/transformed/jetified-activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f6facfcc9dc1abd659d7334af583c8b5/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/73b59eb4b02dedb9e28c071d9827ace3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d4632ae9dd8f7dc83271400ebad45d0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5495d879a037915ac90ae2225bbf9b88/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b72b5544d013e7d6a0e273762ba428f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6c8c65f4dec4b379b97d625f01a537d3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c1fb5107cd70450b0a6dad39b26652cb/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/b555f4a7b3aeececca207334b88b26ce/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/833722312ff838345aa5e7a741b5d979/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4ff9a1f89b50eebb1246379bde945291/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/153fe5b0b28df31ed4345b46297861d3/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/833722312ff838345aa5e7a741b5d979/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b72b5544d013e7d6a0e273762ba428f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/646483f9b70250722aef9614251ded53/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/0b6f45eb88cc144a0ce39589cc31f654/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ae9103313684f4c7c1d4eda48fcd2f4/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/87a7c36797b1f1dc9ef469cba85e301b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f5818bfbca9f2ee590ce365767223ced/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/27244a4b68f810d3b1b2bd8555877113/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7a070bb8ee959f0b7255ff9f6052d5f6/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/aa8e8335173e8d1283d070c499f962b9/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/651bf081a21000d423a4ad7c2c6d6853/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/545890ff3d5e2e7b31a31c22b56a4742/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/446c1589f5c2245a1cafc928d81980d8/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/ea889566b899039b7c5c4aae41205df4/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.browser:browser:1.8.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/99da1541edf0ee5a05af80e0fbf1af63/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8403994aaf00abf46b86782f93ec91d2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f16a70b1156711f29072c7595a0c3b10/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -146,17 +149,15 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/heary
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/62e3fc466ce1a10db9fa1bbd904e342a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7dc22db604c4ab7bb18553d4555e1323/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/fae8dba2a9965313798ec70aebe724ae/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/646483f9b70250722aef9614251ded53/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/0b6f45eb88cc144a0ce39589cc31f654/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ae9103313684f4c7c1d4eda48fcd2f4/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/56ef8f2f739f2327e81f4694d2a7cf82/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/015708b29ce3b38fe955781446c50371/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9a1eceb7a37c4a147aca725dbc08d278/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3214a1bd37c43ab6c588111828292d54/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/11ede2c95c81966fabd45dffe55a1859/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f04a5049ee36f3afc495c7615eb8db93/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3214a1bd37c43ab6c588111828292d54/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/595094b47b471378083fadbd878582af/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d272e742665858982197a87341ca9605/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/83b3f9de00dacf768353070a1ba026bd/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
@@ -164,7 +165,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hearyhealdysairi
 MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d6a3c2875fbab99523f72187454a7217/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4dc5ea22a3fedca3ee8d623761fe0f36/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6f07b1692ec92e6053dc5529e2fcf5fe/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/015708b29ce3b38fe955781446c50371/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/e30b2dce6e37b09d9c59cf866a8e485d/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.62.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7c291d85eddfd22d4b9710936ca75d07/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9be242f2f3dd4d4705c0369a3d399898/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:2:1-7:12
@@ -262,26 +262,24 @@ MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysa
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c68c40a8c5d6a99fd50ec497989f6871/transformed/jetified-firebase-firestore-25.1.3/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/724e897080ba6f4153b3173ba84cc4b6/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
-MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/56ef8f2f739f2327e81f4694d2a7cf82/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/56ef8f2f739f2327e81f4694d2a7cf82/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.preference:preference:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/71d14a7f231865ff8a9697ec2e17115a/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/71d14a7f231865ff8a9697ec2e17115a/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3759d88c7fe2af8f2b789f8be6e40e34/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3759d88c7fe2af8f2b789f8be6e40e34/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/de56e53fb0a63454164cce78d584cc6c/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/de56e53fb0a63454164cce78d584cc6c/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6caf28b8c5d3ac961be2f6617a794c69/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4f1622446e6a8734667193668ad0f314/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4f1622446e6a8734667193668ad0f314/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c7d1b00bc813a4e575dddacc438fbbc7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c7d1b00bc813a4e575dddacc438fbbc7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9c471f1abf96909d65e3b52ee9df88c3/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
@@ -300,52 +298,60 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/heary
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9581dc92154a59b46eb9e51dffb45035/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f6facfcc9dc1abd659d7334af583c8b5/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f6facfcc9dc1abd659d7334af583c8b5/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/73b59eb4b02dedb9e28c071d9827ace3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/73b59eb4b02dedb9e28c071d9827ace3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f5818bfbca9f2ee590ce365767223ced/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f5818bfbca9f2ee590ce365767223ced/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.window:window-java:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/87a7c36797b1f1dc9ef469cba85e301b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
-MERGED from [androidx.window:window-java:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/87a7c36797b1f1dc9ef469cba85e301b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/27244a4b68f810d3b1b2bd8555877113/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/27244a4b68f810d3b1b2bd8555877113/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7a070bb8ee959f0b7255ff9f6052d5f6/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7a070bb8ee959f0b7255ff9f6052d5f6/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/aa8e8335173e8d1283d070c499f962b9/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/aa8e8335173e8d1283d070c499f962b9/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d4632ae9dd8f7dc83271400ebad45d0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d4632ae9dd8f7dc83271400ebad45d0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5495d879a037915ac90ae2225bbf9b88/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5495d879a037915ac90ae2225bbf9b88/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/ffa32b335d1cc53646d19043b405db9d/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/ffa32b335d1cc53646d19043b405db9d/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.9.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/af2f2762888cb49b9acd0c4f9c23158a/transformed/jetified-activity-1.9.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/af2f2762888cb49b9acd0c4f9c23158a/transformed/jetified-activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f6facfcc9dc1abd659d7334af583c8b5/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f6facfcc9dc1abd659d7334af583c8b5/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/73b59eb4b02dedb9e28c071d9827ace3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/73b59eb4b02dedb9e28c071d9827ace3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d4632ae9dd8f7dc83271400ebad45d0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d4632ae9dd8f7dc83271400ebad45d0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5495d879a037915ac90ae2225bbf9b88/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5495d879a037915ac90ae2225bbf9b88/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b72b5544d013e7d6a0e273762ba428f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b72b5544d013e7d6a0e273762ba428f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6c8c65f4dec4b379b97d625f01a537d3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6c8c65f4dec4b379b97d625f01a537d3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c1fb5107cd70450b0a6dad39b26652cb/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c1fb5107cd70450b0a6dad39b26652cb/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/b555f4a7b3aeececca207334b88b26ce/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/b555f4a7b3aeececca207334b88b26ce/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/833722312ff838345aa5e7a741b5d979/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/833722312ff838345aa5e7a741b5d979/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4ff9a1f89b50eebb1246379bde945291/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4ff9a1f89b50eebb1246379bde945291/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/153fe5b0b28df31ed4345b46297861d3/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/153fe5b0b28df31ed4345b46297861d3/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/833722312ff838345aa5e7a741b5d979/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/833722312ff838345aa5e7a741b5d979/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b72b5544d013e7d6a0e273762ba428f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5b72b5544d013e7d6a0e273762ba428f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/646483f9b70250722aef9614251ded53/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/646483f9b70250722aef9614251ded53/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/0b6f45eb88cc144a0ce39589cc31f654/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/0b6f45eb88cc144a0ce39589cc31f654/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ae9103313684f4c7c1d4eda48fcd2f4/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ae9103313684f4c7c1d4eda48fcd2f4/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/87a7c36797b1f1dc9ef469cba85e301b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/87a7c36797b1f1dc9ef469cba85e301b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f5818bfbca9f2ee590ce365767223ced/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f5818bfbca9f2ee590ce365767223ced/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/27244a4b68f810d3b1b2bd8555877113/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/27244a4b68f810d3b1b2bd8555877113/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7a070bb8ee959f0b7255ff9f6052d5f6/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7a070bb8ee959f0b7255ff9f6052d5f6/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/aa8e8335173e8d1283d070c499f962b9/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/hearyhealdysairin/.gradle/caches/transforms-3/aa8e8335173e8d1283d070c499f962b9/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/651bf081a21000d423a4ad7c2c6d6853/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/651bf081a21000d423a4ad7c2c6d6853/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/545890ff3d5e2e7b31a31c22b56a4742/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/545890ff3d5e2e7b31a31c22b56a4742/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/446c1589f5c2245a1cafc928d81980d8/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/446c1589f5c2245a1cafc928d81980d8/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/ea889566b899039b7c5c4aae41205df4/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/ea889566b899039b7c5c4aae41205df4/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.browser:browser:1.8.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/99da1541edf0ee5a05af80e0fbf1af63/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.browser:browser:1.8.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/99da1541edf0ee5a05af80e0fbf1af63/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8403994aaf00abf46b86782f93ec91d2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -368,28 +374,24 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hearyh
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7dc22db604c4ab7bb18553d4555e1323/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/fae8dba2a9965313798ec70aebe724ae/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/fae8dba2a9965313798ec70aebe724ae/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/646483f9b70250722aef9614251ded53/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/646483f9b70250722aef9614251ded53/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/0b6f45eb88cc144a0ce39589cc31f654/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/0b6f45eb88cc144a0ce39589cc31f654/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ae9103313684f4c7c1d4eda48fcd2f4/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ae9103313684f4c7c1d4eda48fcd2f4/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/56ef8f2f739f2327e81f4694d2a7cf82/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/56ef8f2f739f2327e81f4694d2a7cf82/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/015708b29ce3b38fe955781446c50371/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/015708b29ce3b38fe955781446c50371/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9a1eceb7a37c4a147aca725dbc08d278/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/hearyhealdysairin/.gradle/caches/transforms-3/9a1eceb7a37c4a147aca725dbc08d278/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3214a1bd37c43ab6c588111828292d54/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3214a1bd37c43ab6c588111828292d54/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/11ede2c95c81966fabd45dffe55a1859/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/11ede2c95c81966fabd45dffe55a1859/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f04a5049ee36f3afc495c7615eb8db93/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/f04a5049ee36f3afc495c7615eb8db93/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3214a1bd37c43ab6c588111828292d54/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3214a1bd37c43ab6c588111828292d54/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/032aa7f208aebebe46a08a7930b79180/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/595094b47b471378083fadbd878582af/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/595094b47b471378083fadbd878582af/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d272e742665858982197a87341ca9605/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -404,8 +406,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hearyhealdysairin/
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4dc5ea22a3fedca3ee8d623761fe0f36/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6f07b1692ec92e6053dc5529e2fcf5fe/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/6f07b1692ec92e6053dc5529e2fcf5fe/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/015708b29ce3b38fe955781446c50371/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/015708b29ce3b38fe955781446c50371/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/e30b2dce6e37b09d9c59cf866a8e485d/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/e30b2dce6e37b09d9c59cf866a8e485d/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [io.grpc:grpc-android:1.62.2] /Users/hearyhealdysairin/.gradle/caches/transforms-3/7c291d85eddfd22d4b9710936ca75d07/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
@@ -644,6 +644,24 @@ ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysa
 		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/20ed15f2f29e5340f8a76e65b2e5ba1c/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
 service#androidx.credentials.playservices.CredentialProviderMetadataHolder
 ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
 	android:enabled
@@ -674,24 +692,6 @@ ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Use
 		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
 	android:name
 		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8903344523c4f543cc8a9c09f1cf78c6/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
-meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/a12cad66f92d467c60ff47dd17e46fd5/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/c7d1b00bc813a4e575dddacc438fbbc7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -724,44 +724,6 @@ ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdy
 		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/8dd879658e3492f5874a50f9207c5d84/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
-	android:required
-		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
-	android:required
-		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-permission#com.haweeinc.lpmi_premium.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-uses-permission#com.haweeinc.lpmi_premium.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
@@ -782,6 +744,44 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin
 		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/d9d8026f4b47e0476774534ff2cfa7b2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/3a23ed9f42bef039364111d1f2d58727/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/hearyhealdysairin/.gradle/caches/transforms-3/4b21c25f08eeba913aea4f399c8cb78a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.haweeinc.lpmi_premium.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.haweeinc.lpmi_premium.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/hearyhealdysairin/.gradle/caches/transforms-3/2500444eb603bc4f60202c0086cc043a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 	android:value

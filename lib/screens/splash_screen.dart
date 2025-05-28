@@ -12,21 +12,22 @@ class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderStateMixin {
+class _SplashScreenState extends State<SplashScreen>
+    with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
   late Animation<double> _fadeAnimation;
   late Animation<double> _scaleAnimation;
-  
+
   @override
   void initState() {
     super.initState();
-    
+
     // Initialize animation controller
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 2000),
     );
-    
+
     // Create fade-in animation
     _fadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
       CurvedAnimation(
@@ -34,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
         curve: const Interval(0.0, 0.5, curve: Curves.easeIn),
       ),
     );
-    
+
     // Create scale animation
     _scaleAnimation = Tween<double>(begin: 0.8, end: 1.0).animate(
       CurvedAnimation(
@@ -42,30 +43,31 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
         curve: const Interval(0.0, 0.5, curve: Curves.easeOutBack),
       ),
     );
-    
+
     // Start animation
     _animationController.forward();
-    
+
     // Initialize Firebase and navigate after delay
     _initializeAndNavigate();
   }
-  
+
   Future<void> _initializeAndNavigate() async {
     try {
       // Initialize Firebase
       await FirebaseConfig.initializeFirebase();
-      
+
       // Wait for minimum splash screen duration
       await Future.delayed(const Duration(milliseconds: 2500));
-      
+
       if (mounted) {
         // Try to get current authentication state, then navigate
         // This is handled via the listener in main.dart
-        await Provider.of<AuthProvider>(context, listen: false).checkAuthStatus();
+        await Provider.of<AuthProvider>(context, listen: false)
+            .checkAuthStatus();
       }
     } catch (e) {
       debugPrint("Error initializing app: $e");
-      
+
       // Show error if Firebase initialization fails
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -77,7 +79,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
       }
     }
   }
-  
+
   @override
   void dispose() {
     _animationController.dispose();
@@ -110,27 +112,30 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       // App Logo
-                      Icon(
-                        Icons.security,  // Replace with your app icon
+                      const Icon(
+                        Icons.security, // Replace with your app icon
                         size: 100,
                         color: Colors.white,
                       ),
                       const SizedBox(height: 24),
                       // App Name
                       Text(
-                        'Firebase Auth',  // Replace with your app name
-                        style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        'Firebase Auth', // Replace with your app name
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineMedium
+                            ?.copyWith(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
                       ),
                       const SizedBox(height: 8),
                       // Tagline
                       Text(
-                        'Secure authentication made simple',  // Replace with your tagline
+                        'Secure authentication made simple', // Replace with your tagline
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          color: Colors.white,
-                        ),
+                              color: Colors.white,
+                            ),
                       ),
                       const SizedBox(height: 48),
                       // Loading indicator

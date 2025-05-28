@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-64:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.haweeinc.lpmi_premium.app-mergeDebugResources-63:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/2d06d0ca72e5ae2adc8f382900ed6d60/transformed/jetified-credentials-1.2.0-rc01/res/values-pt-rBR/values-pt-rBR.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "2843,2952",
                         "endColumns": "108,121",
                         "endOffsets": "2947,3069"
+                    }
+                },
+                {
+                    "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/cc117054dfcd582eb8dcad1ea1059aa2/transformed/core-1.13.1/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,670,790",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "147,249,348,448,555,665,785,886"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,65",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3074,3171,3273,3372,3472,3579,3689,6975",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "3166,3268,3367,3467,3574,3684,3804,7071"
                     }
                 },
                 {
@@ -69,23 +86,6 @@
                         "startOffsets": "6141,6343,6442,6554",
                         "endColumns": "114,98,111,105",
                         "endOffsets": "6251,6437,6549,6655"
-                    }
-                },
-                {
-                    "source": "/Users/hearyhealdysairin/.gradle/caches/transforms-3/5ca89d0a7e5886707b72fcd01a8df78c/transformed/core-1.12.0/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,353,453,560,670,790",
-                        "endColumns": "96,101,98,99,106,109,119,100",
-                        "endOffsets": "147,249,348,448,555,665,785,886"
-                    },
-                    "to": {
-                        "startLines": "31,32,33,34,35,36,37,65",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3074,3171,3273,3372,3472,3579,3689,6975",
-                        "endColumns": "96,101,98,99,106,109,119,100",
-                        "endOffsets": "3166,3268,3367,3467,3574,3684,3804,7071"
                     }
                 },
                 {

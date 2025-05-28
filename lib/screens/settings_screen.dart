@@ -47,42 +47,43 @@ class SettingsScreen extends StatelessWidget {
             },
             secondary: Icon(
               settingsProvider.isDarkTheme ? Icons.dark_mode : Icons.light_mode,
-              color: settingsProvider.isDarkTheme ? Colors.amber : Colors.blueGrey,
+              color:
+                  settingsProvider.isDarkTheme ? Colors.amber : Colors.blueGrey,
             ),
           ),
           const Divider(),
 
           // List Style Setting
           _buildSectionHeader(context, 'List Style'),
-          
+
           // Build a card for each list style option
           ...ListStyle.values.map((style) => _buildListStyleCard(
-            context, 
-            style, 
-            settingsProvider.listStyle == style,
-            () => settingsProvider.setListStyle(style),
-          )),
-          
+                context,
+                style,
+                settingsProvider.listStyle == style,
+                () => settingsProvider.setListStyle(style),
+              )),
+
           const Divider(),
 
           // Player Mode Setting - If your app uses PlayerMode enum
           if (PlayerMode.values.isNotEmpty) ...[
             _buildSectionHeader(context, 'Music Player'),
-            
+
             // Build a card for each player mode option
             ...PlayerMode.values.map((mode) => _buildPlayerModeCard(
-              context, 
-              mode, 
-              settingsProvider.playerMode == mode,
-              () => settingsProvider.setPlayerMode(mode),
-            )),
-            
+                  context,
+                  mode,
+                  settingsProvider.playerMode == mode,
+                  () => settingsProvider.setPlayerMode(mode),
+                )),
+
             const Divider(),
           ],
 
           // Font Settings
           _buildSectionHeader(context, 'Text Settings'),
-          
+
           // Font Size Slider
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -94,7 +95,8 @@ class SettingsScreen extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text('Font Size', style: TextStyle(fontWeight: FontWeight.bold)),
+                      const Text('Font Size',
+                          style: TextStyle(fontWeight: FontWeight.bold)),
                       Slider(
                         value: settingsProvider.fontSize,
                         min: AppDimensions.minFontSize,
@@ -117,24 +119,25 @@ class SettingsScreen extends StatelessWidget {
               ],
             ),
           ),
-          
+
           const Divider(),
-          
+
           // Font Family
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
             child: Row(
               children: [
-                const Icon(Icons.font_download, color: Colors.blue),
-                const SizedBox(width: 16),
-                const Text('Font Family', style: TextStyle(fontWeight: FontWeight.bold)),
+                Icon(Icons.font_download, color: Colors.blue),
+                SizedBox(width: 16),
+                Text('Font Family',
+                    style: TextStyle(fontWeight: FontWeight.bold)),
               ],
             ),
           ),
-          
+
           // Font options
-          ...['Montserrat', 'Roboto', 'Lato', 'Open Sans', 'Raleway'].map((font) => 
-            RadioListTile<String>(
+          ...['Montserrat', 'Roboto', 'Lato', 'Open Sans', 'Raleway'].map(
+            (font) => RadioListTile<String>(
               title: Text(font, style: TextStyle(fontFamily: font)),
               value: font,
               groupValue: settingsProvider.fontFamily,
@@ -147,31 +150,28 @@ class SettingsScreen extends StatelessWidget {
               },
             ),
           ),
-          
+
           const Divider(),
-          
+
           // About Section
           _buildSectionHeader(context, 'About'),
-          ListTile(
-            leading: const Icon(Icons.info_outline, color: Colors.blue),
-            title: const Text('App Version'),
-            subtitle: const Text('1.5.0'),
+          const ListTile(
+            leading: Icon(Icons.info_outline, color: Colors.blue),
+            title: Text('App Version'),
+            subtitle: Text('1.5.0'),
           ),
-          ListTile(
-            leading: const Icon(Icons.copyright, color: Colors.blue),
-            title: const Text('© 2025 HAWEEINC'),
-            subtitle: const Text('All rights reserved'),
+          const ListTile(
+            leading: Icon(Icons.copyright, color: Colors.blue),
+            title: Text('© 2025 HAWEEINC'),
+            subtitle: Text('All rights reserved'),
           ),
         ],
       ),
     );
   }
-  
-  Widget _buildListStyleCard(
-      BuildContext context, 
-      ListStyle style, 
-      bool isSelected, 
-      VoidCallback onTap) {
+
+  Widget _buildListStyleCard(BuildContext context, ListStyle style,
+      bool isSelected, VoidCallback onTap) {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4.0),
       shape: RoundedRectangleBorder(
@@ -226,13 +226,10 @@ class SettingsScreen extends StatelessWidget {
       ),
     );
   }
-  
+
   // For PlayerMode if your app uses it
-  Widget _buildPlayerModeCard(
-      BuildContext context, 
-      PlayerMode mode, 
-      bool isSelected, 
-      VoidCallback onTap) {
+  Widget _buildPlayerModeCard(BuildContext context, PlayerMode mode,
+      bool isSelected, VoidCallback onTap) {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4.0),
       shape: RoundedRectangleBorder(
@@ -302,7 +299,7 @@ class SettingsScreen extends StatelessWidget {
         return 'Compact view to see more songs at once';
     }
   }
-  
+
   // Description for player modes if your app uses PlayerMode
   String _getPlayerModeDescription(PlayerMode mode) {
     switch (mode) {
@@ -319,9 +316,9 @@ class SettingsScreen extends StatelessWidget {
       child: Text(
         title,
         style: Theme.of(context).textTheme.titleMedium?.copyWith(
-          color: Colors.blue,
-          fontWeight: FontWeight.bold,
-        ),
+              color: Colors.blue,
+              fontWeight: FontWeight.bold,
+            ),
       ),
     );
   }

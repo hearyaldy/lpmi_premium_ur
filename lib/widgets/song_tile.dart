@@ -46,7 +46,7 @@ class SongTile extends StatelessWidget {
                 backgroundColor: Colors.blue.withOpacity(0.1),
                 child: Text(
                   song.songNumber,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
                     color: Colors.blue,
@@ -76,7 +76,9 @@ class SongTile extends StatelessWidget {
               if (canPlay)
                 IconButton(
                   icon: Icon(
-                    isPlaying ? Icons.pause_circle_filled : Icons.play_circle_fill,
+                    isPlaying
+                        ? Icons.pause_circle_filled
+                        : Icons.play_circle_fill,
                     color: isPlaying ? Colors.blue : Colors.grey,
                   ),
                   onPressed: onPlayPause,

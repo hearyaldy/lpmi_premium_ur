@@ -29,6 +29,9 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Future<void> _login() async {
     if (_formKey.currentState!.validate()) {
+      // Check if widget is still mounted before setState
+      if (!mounted) return;
+
       setState(() {
         _isLoading = true;
         _errorMessage = '';
@@ -39,9 +42,12 @@ class _LoginScreenState extends State<LoginScreen> {
           email: _emailController.text.trim(),
           password: _passwordController.text.trim(),
         );
-        
+
         // Navigation will be handled by the listener in main.dart
       } catch (e) {
+        // Check if widget is still mounted before setState
+        if (!mounted) return;
+
         setState(() {
           _errorMessage = e.toString();
           _isLoading = false;
@@ -80,7 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 40),
-                
+
                 // Error message
                 if (_errorMessage.isNotEmpty)
                   Container(
@@ -103,7 +109,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ],
                     ),
                   ),
-                
+
                 // Email field
                 TextFormField(
                   controller: _emailController,
@@ -117,7 +123,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   enabled: !_isLoading,
                 ),
                 const SizedBox(height: 20),
-                
+
                 // Password field
                 TextFormField(
                   controller: _passwordController,
@@ -125,8 +131,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     labelText: 'Password',
                     prefixIcon: const Icon(Icons.lock),
                     suffixIcon: IconButton(
-                      icon: Icon(_obscurePassword ? Icons.visibility : Icons.visibility_off),
+                      icon: Icon(_obscurePassword
+                          ? Icons.visibility
+                          : Icons.visibility_off),
                       onPressed: () {
+                        // Check if widget is still mounted before setState
+                        if (!mounted) return;
                         setState(() {
                           _obscurePassword = !_obscurePassword;
                         });
@@ -139,26 +149,27 @@ class _LoginScreenState extends State<LoginScreen> {
                   enabled: !_isLoading,
                   onFieldSubmitted: (_) => _login(),
                 ),
-                
+
                 // Forgot password
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(
-                    onPressed: _isLoading 
-                      ? null 
-                      : () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const ForgotPasswordScreen(),
-                            ),
-                          );
-                        },
+                    onPressed: _isLoading
+                        ? null
+                        : () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    const ForgotPasswordScreen(),
+                              ),
+                            );
+                          },
                     child: const Text('Forgot Password?'),
                   ),
                 ),
                 const SizedBox(height: 24),
-                
+
                 // Login button
                 SizedBox(
                   height: 50,
@@ -170,23 +181,23 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
                 const SizedBox(height: 20),
-                
+
                 // Register link
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Text("Don't have an account?"),
                     TextButton(
-                      onPressed: _isLoading 
-                        ? null 
-                        : () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const RegisterScreen(),
-                              ),
-                            );
-                          },
+                      onPressed: _isLoading
+                          ? null
+                          : () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const RegisterScreen(),
+                                ),
+                              );
+                            },
                       child: const Text('Register'),
                     ),
                   ],
