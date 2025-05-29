@@ -36,7 +36,7 @@ class DefaultFirebaseOptions {
 
   // You need to replace these with actual values from your Firebase project
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyABCiE8ZEP7VnBt0kxnYzfCiLQKDFGTMas',
+    apiKey: '0',
     appId: 'your-web-app-id',
     messagingSenderId: 'your-sender-id',
     projectId: 'your-project-id',
@@ -45,11 +45,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyABCiE8ZEP7VnBt0kxnYzfCiLQKDFGTMas',
-    appId: '1:305953366030:android:36444667319e23f85b1c5f',
-    messagingSenderId: '305953366030',
-    projectId: 'fir-ur-66900',
-    storageBucket: 'gs://fir-ur-66900.firebasestorage.app',
+    apiKey: '0',
+    appId: '0',
+    messagingSenderId: '0',
+    projectId: '0',
+    storageBucket: '0',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
